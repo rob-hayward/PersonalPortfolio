@@ -1,3 +1,4 @@
+# PersonalPortfolioApp/views.py
 from rest_framework import viewsets
 from .models import Profile, Project
 from .serializers import ProfileSerializer, ProjectSerializer
