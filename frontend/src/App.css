@@ -158,3 +158,10 @@ body {
 .close-btn:hover {
   color: #007bff;
 }
+
+/* Left-justify the profile section */
+.profile-section {
+  text-align: left;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

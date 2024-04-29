@@ -17,11 +17,9 @@ const Profile = () => {
     }, []);
 
     return (
-        <div>
-            {profile ? (
-                <div>
-                    <p>{profile.bio}</p>
-                </div>
+        <div className="profile-section">
+            {profile.bio ? (
+                <div dangerouslySetInnerHTML={{ __html: profile.bio }} />
             ) : (
                 <p>Loading profile...</p>
             )}
